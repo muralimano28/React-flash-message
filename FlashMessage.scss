@@ -1,0 +1,33 @@
+.alert {
+  height:50px;
+  width:700px;
+  position: absolute;
+  top: 3px;
+  margin-left: 245px;  
+  z-index: 3;
+  opacity: 0.9;
+  border-radius: 3px;
+  &.info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+  }
+  &.danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+  }
+  &.warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+  }
+  &.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+  }
+  & p {
+    text-align: center;
+  }
+}
